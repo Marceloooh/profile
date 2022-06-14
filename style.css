@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=Oswald:wght@200;400;500&display=swap');;
+
+body {
+  background-color: #EFEAD8;
+}
+
+p {
+  color : #303030;
+  font-family: 'Nunito', sans-serif;
+  font-weight : 300;
+  font-size: 16px;
+}
+
+h1 {
+  color: #154535;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight : 500;
+}
+
+h2 {
+  color: #154535;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight : 400;
+}
+
+a {
+  color: #154535;
+  font-family: 'Nunito', sans-serif;
+  font-weight : 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e6c60f;
+
+}
+
+.img-rounded {
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.card-shadow {
+  background-color: #fff;
+  margin: 40px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 0 5px #00000020;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-green {
+  background-color: #154535;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 12px auto;
+  display: inline-block;
+}
+
+.btn-green:hover {
+  background-color: #e6c60f;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  font-size: 40px;
+}
+
+@media (max-width: 540px) {
+  .img-rounded {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+}
